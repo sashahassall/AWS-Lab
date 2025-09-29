@@ -37,7 +37,8 @@ The diagram shows a VPC with public/private subnets.
 ---
 
 ## Key Takeaways
-  - Gained experience with cloud infrastructure design and security best practices      ​
+
+  - Gained experience with cloud infrastructure design and security best practices
   - Learned how to implement least privilege using security groups and IAM roles
   - Recognized the importance of monitoring and logging within cloud environments
   - Practiced configuring and troubleshooting connectivity between public and private subnets  
