@@ -44,10 +44,11 @@ The diagram shows a VPC with public/private subnets.
 
 ---
 
-## Screenshots & Config Files 
-Screenshots and config files are included in this repo:  
-- [Screenshots Folder](./screenshots) – SG rules, CloudWatch alarm, CloudTrail event logs, bastion SSH access  
-- [Configs Folder](./configs) – exported JSON for SGs, IAM policies, CloudWatch alarms  
+## Screenshots & Config Files
+
+For the full step-by-step process with screenshots, see the [Walkthrough & Screenshots guide](./Walkthrough%20&%20Screenshots/ReadME.md).
+
+
 
 ---
 
