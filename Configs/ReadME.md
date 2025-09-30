@@ -6,10 +6,10 @@ This folder has a few examples of AWS config files that I exported and sanitized
 - **webserver-sg.json**  
 Security Group for the web server that shows rules for HTTP/HTTPS and restricted SSH. 
 
-- **dbserver-sg.json**  
+- **database-sg.json**  
   Security Group for the database. Only allows MySQL traffic from the WebServer SG.  
 
-- **iam-role.json**  
+- **webserver-iam-role.json**  
   IAM role attached to the Web Server EC2 Instance. 
 
 - **cloudwatch-alarm.json**  
