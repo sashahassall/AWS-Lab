@@ -1,0 +1,36 @@
+{
+    "MetricAlarms": [
+        {
+            "AlarmName": "HighCPUAlarm-WebServer",
+            "AlarmArn": "arn:aws:cloudwatch:<region>:<account-id>:alarm:HighCPUAlarm-WebServer",
+            "AlarmConfigurationUpdatedTimestamp": "<timestamp>",
+            "ActionsEnabled": true,
+            "OKActions": [],
+            "AlarmActions": [
+                "arn:aws:sns:<region>:<account-id>:HighCPUAlarm-WebServer"
+            ],
+            "InsufficientDataActions": [],
+            "StateValue": "OK",
+            "StateReason": "Threshold Crossed: [value] was not greater than the threshold (70.0).",
+            "StateReasonData": "<redacted>",
+            "StateUpdatedTimestamp": "<timestamp>",
+            "MetricName": "CPUUtilization",
+            "Namespace": "AWS/EC2",
+            "Statistic": "Average",
+            "Dimensions": [
+                {
+                    "Name": "InstanceId",
+                    "Value": "<instance-id>"
+                }
+            ],
+            "Period": 300,
+            "EvaluationPeriods": 1,
+            "DatapointsToAlarm": 1,
+            "Threshold": 70.0,
+            "ComparisonOperator": "GreaterThanThreshold",
+            "TreatMissingData": "missing",
+            "StateTransitionedTimestamp": "<timestamp>"
+        }
+    ],
+    "CompositeAlarms": []
+}
