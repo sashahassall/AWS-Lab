@@ -49,12 +49,14 @@ The diagram shows a VPC with public/private subnets.
 
 For the full step-by-step process with screenshots, see the [Walkthrough & Screenshots guide](./Walkthrough%20&%20Screenshots/ReadME.md).
 
-
+For examples of configuration files from my lab, visit the [Configs] folder. 
 
 ---
 
 ## Possible Future Improvements 
 - Adding a WAF for web protection  
-- Automating setup with Terraform  
+- Automating setup with Terraform
+- Become AWS Certified
+  
+**I know that this is only a first step in learning how to build and secure cloud environments, however, this project gave me inspiration to continue exploring cloud security and developing my knowledge and skills.**
 
----
